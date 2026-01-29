@@ -1,0 +1,17 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# Cargo.lock (ignore for libraries; keep for binaries if desired)
+Cargo.lock
+
+# Rustfmt backup files
+*.rs.bk
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
